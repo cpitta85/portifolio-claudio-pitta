@@ -1,0 +1,126 @@
+/*BODY______________________________________________________________________*/
+body {
+  background-color: #fafafa;
+  position: relative;
+  width: 100vw;
+}
+
+/*HEADER____________________________________________________________________*/
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  height: 32px;
+  margin-top: 54px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-top {
+  display: flex;
+  justify-content: center;
+  color: #33323d;
+}
+
+.link-top-contato {
+  color: #5fb4a2;
+}
+
+/*MAIN____________________________________________________________________*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1110px;
+  height: 354px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  border-top: 1px solid rgba(51, 50, 61, 0.15);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.container-contato-txt {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  height: 354px;
+  margin-top: 48px;
+}
+
+.redes-sociais-contato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 60px;
+  margin-bottom: 48px;
+  width: 104px;
+  height: 24px;
+}
+
+h1 {
+  width: 350px;
+  height: 42px;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  color: #33323d;
+  margin: 0;
+}
+
+p {
+  width: 635px;
+  height: 180px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: hsl(245, 10%, 22%);
+  margin: 0;
+}
+
+/*FOOTER____________________________________________________________________*/
+footer,
+.link-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #33323d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  height: 64px;
+  color: white;
+}
+
+.logo-bottom {
+  margin-left: 50px;
+}
+
+.redes-sociais {
+  width: 104px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
