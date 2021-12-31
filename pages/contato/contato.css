@@ -53,7 +53,7 @@ main {
   width: 1110px;
   height: 354px;
   margin-top: 94px;
-  margin-bottom: 94px;
+  margin-bottom: 47px;
   border-top: 1px solid rgba(51, 50, 61, 0.15);
   border-bottom: 1px solid rgba(51, 50, 61, 0.15);
 }
@@ -97,6 +97,83 @@ p {
   line-height: 30px;
   color: hsl(245, 10%, 22%);
   margin: 0;
+}
+
+.container-form {
+  display: flex;
+  width: 1110px;
+  height: 426px;
+  justify-content: space-between;
+  margin-bottom: 109px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 635px;
+  height: 426px;
+}
+
+label {
+  font-family: "Public Sans", sans-serif;
+  font-size: 13px;
+  color: rgb(51, 50, 61);
+  font-weight: 700;
+  line-height: 30px;
+  height: 30px;
+  margin-bottom: 8px;
+}
+
+#txt-nome,
+#txt-email {
+  border-style: none;
+  background-color: #e6e6e7;
+  height: 48px;
+  margin-bottom: 24px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  color: #33323d;
+  font-weight: 400;
+  line-height: 8px;
+  padding-left: 12px;
+}
+
+#txt-mensagem {
+  background-color: #e6e6e7;
+  height: 96px;
+  margin-bottom: 24px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  color: #33323d;
+  font-weight: 400;
+  line-height: 8px;
+  padding-left: 12px;
+  border-style: none;
+}
+
+button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 48px;
+  background-color: hsl(205, 41%, 21%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.container-form input:focus {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: hsl(206, 41%, 29%);
 }
 
 /*FOOTER____________________________________________________________________*/
