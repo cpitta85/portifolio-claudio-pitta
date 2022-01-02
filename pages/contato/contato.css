@@ -127,7 +127,7 @@ label {
 #txt-nome,
 #txt-email {
   border-style: none;
-  background-color: #e6e6e7;
+  background-color: #eaeaeb;
   height: 48px;
   margin-bottom: 24px;
   font-family: "Public Sans", sans-serif;
@@ -139,7 +139,7 @@ label {
 }
 
 #txt-mensagem {
-  background-color: #e6e6e7;
+  background-color: #eaeaeb;
   height: 96px;
   margin-bottom: 24px;
   font-family: "Public Sans", sans-serif;
@@ -173,7 +173,7 @@ button {
 }
 
 button:hover {
-  background-color: hsl(206, 41%, 29%);
+  background-color: #5fb4a2;
 }
 
 /*FOOTER____________________________________________________________________*/

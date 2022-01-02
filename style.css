@@ -69,27 +69,50 @@ main {
 }
 
 span {
-  color: #ff3a37;
+  color: #5fb4a2;
 }
 
 .btn-sobreMim {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #203a4c;
   width: 200px;
   height: 48px;
 }
+.btn-sobreMim:hover {
+  background-color: #5fb4a2;
+}
 
+.box-seta-sobreMim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 0%, 0.1);
+  width: 48px;
+  height: 48px;
+}
+.link-seta-sobreMim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
 .seta-sobreMim {
-  width: 20px;
-  height: 20px;
-  margin: 18px 16px 18px 16px;
+  padding: 18px;
+}
+.seta-sobreMim:hover {
+  filter: brightness(0) invert(1);
 }
 
 .link-sobreMim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 152px;
-  height: 14px;
-  margin: 0px 16px;
+  height: 48px;
+  display: flex;
   letter-spacing: 2px;
   font-family: "Public Sans", sans-serif;
   font-size: 12px;
@@ -146,6 +169,10 @@ span {
   letter-spacing: 2px;
   border: 1px solid #33323d;
 }
+.link-portifolio:hover {
+  background-color: #33323d;
+  color: white;
+}
 
 /*INTERESSADO PRE-FOOTER____________________________________________________*/
 
@@ -181,6 +208,11 @@ span {
   width: 168px;
   height: 48px;
   border: 1px solid #33323d;
+}
+
+.link-contato:hover {
+  background-color: #33323d;
+  color: white;
 }
 
 /*FOOTER____________________________________________________________________*/
