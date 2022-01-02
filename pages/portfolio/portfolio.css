@@ -33,7 +33,7 @@ a {
   color: #33323d;
 }
 
-.link-top-home {
+.link-top-portifolio {
   color: #5fb4a2;
 }
 
@@ -44,102 +44,58 @@ main {
   align-items: center;
 }
 
-.img-monitor {
-  margin-top: 54px;
-  width: 1110px;
-  height: 600px;
-}
-
-.apresentacao {
-  box-sizing: border-box;
-  background: #fafafa;
-  width: 470px;
-  height: 357px;
-  position: relative;
-  margin-top: -360px;
-}
-.txt-apresentacao {
-  font-family: "Ibarra Real Nova", serif;
-  font-size: 46px;
-  font-weight: 700;
-  color: #33323d;
-  padding: 56px 25px 0px 25px;
-  letter-spacing: -0.45px;
-  margin-bottom: 53px;
-}
-
-span {
-  color: #ff3a37;
-}
-
-.btn-sobreMim {
-  display: flex;
-  align-items: center;
-  background-color: #203a4c;
-  width: 200px;
-  height: 48px;
-}
-
-.seta-sobreMim {
-  width: 20px;
-  height: 20px;
-  margin: 18px 16px 18px 16px;
-}
-
-.link-sobreMim {
-  width: 152px;
-  height: 14px;
-  margin: 0px 16px;
-  letter-spacing: 2px;
-  font-family: "Public Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  color: #fff;
-  text-decoration: none;
-}
-
-.container-foto {
+.container {
   display: flex;
   justify-content: space-between;
-  margin-top: 150px;
-  width: 1110px;
-  height: 600px;
+  margin-top: 93px;
+  width: 1015px;
+  height: 500px;
 }
 
-.img-minhaFoto {
+.container-manager {
+  margin-bottom: 80px;
+}
+
+.img {
   width: 540px;
-  height: 600px;
+  height: 500px;
 }
 
-.box-sobreMim {
-  width: 430px;
-  height: 600px;
+.box {
+  width: 350px;
+  height: 500px;
+  border-top: 1px solid rgba(51, 50, 61, 0.15);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 292px;
   font-family: "Public Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   color: #33323d;
-  border-top: 1px solid rgba(51, 50, 61, 0.15);
-  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+  padding-top: 103px;
+  padding-bottom: 103px;
 }
 
-.titulo-sobreMim {
+h1 {
   font-family: "Ibarra Real Nova", serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 42px;
-  margin-top: 51px;
-  margin-bottom: 28px;
 }
 
-.link-portifolio {
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 204px;
+  width: 175px;
   height: 48px;
-  margin-top: 24px;
-  margin-left: 110px;
   font-size: 12px;
   font-weight: 400;
   color: #33323d;
