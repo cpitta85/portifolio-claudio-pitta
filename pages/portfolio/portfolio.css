@@ -103,6 +103,26 @@ h1 {
   border: 1px solid #33323d;
 }
 
+.btn-manage:hover {
+  background-color: #ff3e34;
+  color: white;
+}
+
+.btn-bookmark:hover {
+  background-color: #4357af;
+  color: white;
+}
+
+.btn-insure:hover {
+  background-color: #9c95ab;
+  color: white;
+}
+
+.btn-fylo:hover {
+  background-color: #00b6d3;
+  color: white;
+}
+
 /*INTERESSADO PRE-FOOTER____________________________________________________*/
 
 .container-contato {
@@ -137,6 +157,11 @@ h1 {
   width: 168px;
   height: 48px;
   border: 1px solid #33323d;
+}
+
+.link-contato:hover {
+  background-color: #33323d;
+  color: white;
 }
 
 /*FOOTER____________________________________________________________________*/
